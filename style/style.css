@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 718px;
     margin: auto;
 }
 
@@ -31,10 +31,16 @@ header .container {
     padding: 20px 30px;
     font-size: 20px;
     color: white;
+    cursor: pointer;
+}
+
+.main-menu ul li:hover {
+    color: #9fbc2e;
+    font-weight: bold;
 }
 
 .main-menu ul li:last-child {
-    padding-left: 350px;
+    float: right;
 }
 
 .header-img {
@@ -46,43 +52,50 @@ header .container {
 
 .container .box {
     display: inline-block;
-    width: 30%;
+    width: 29%;
     background-color: #fff;
     padding: 13px;
     margin-bottom: 30px;
+    margin-right: 2px;
+    cursor: pointer;
 }
 
+.container .box:last-child {
+    margin-right: 0px;
+}
+
+.container .box:hover {
+    background-color: #152733;
+    color: white;
+}
 
 .container .box h3 {
-    font-size: 23px;
+    margin-top: 10px;
+    font-size: 20px;
 }
 
 .container .box p {
-    font-size: 14px;
-    padding-bottom: 15px;
+    font-size: 12px;
+    padding-bottom: 10px;
 }
 
-.container-sec {
+.sec1 {
     background-color: white;
     margin: auto;
-    width: 70%;
+    width: 718px;
 }
-
-.container-sec div {
+.sec1 .container div {
     display: inline-block;
 }
-
 .content-info {
     width: 60%;
     background-color: white;
     padding: 15px;
-    margin: 0px;
 }
 
 .content-info p {
-
     font-size: 12px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 .navigation {
     float: right;
@@ -100,11 +113,13 @@ header .container {
     background-color: #e8e8e8;
     padding: 12px;
     margin-right: 10px;
+    cursor: pointer;
 }
 
-.gallery .container {
-
-    background-color: none;
+.navigation ul li:hover {
+    background-color: #152733;
+    color: white;
+    font-weight: bold;
 }
 
 .gallery h1 {
@@ -115,7 +130,7 @@ header .container {
 
 .gallery ul li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 9px;
     width: 24%;
     height: 110px;
 }
@@ -134,12 +149,13 @@ header .container {
     line-height: 55px;
     background-color: white;
     font-size: 15px;
-    padding: 0px 15px;
+
 }
 
 .footer p {
     display: inline;
     color: #5d646c;
+    padding: 0px 15px;
 }
 
 .footer p:last-child {
