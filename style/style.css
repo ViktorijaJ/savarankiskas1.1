@@ -17,7 +17,7 @@ header .container {
     background-color: #eeeeee;
 }
 
-.logo  {
+.logo {
     padding: 20px;
     background-color: #fff;
 }
@@ -84,9 +84,11 @@ header .container {
     margin: auto;
     width: 718px;
 }
+
 .sec1 .container div {
     display: inline-block;
 }
+
 .content-info {
     width: 60%;
     background-color: white;
@@ -97,6 +99,7 @@ header .container {
     font-size: 12px;
     padding-bottom: 15px;
 }
+
 .navigation {
     float: right;
     width: 30%;
@@ -107,6 +110,7 @@ header .container {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 .navigation ul li {
     display: block;
     line-height: 13px;
@@ -161,4 +165,17 @@ header .container {
 .footer p:last-child {
     float: right;
     color: #9fbc2e;
+}
+
+@media (max-width: 780px) {
+    .main-menu ul li {
+        display: block;
+        padding: 10px 10px;
+        font-size: 15px;
+    }
+    .main-menu ul li:last-child {
+        float:none;
+    }
+
+
 }
